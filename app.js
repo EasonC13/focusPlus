@@ -18,6 +18,51 @@ $(document).ready(function(){
     $("#first_box").click(function() {
         url = "http://localhost:13523/test"
         $.get(url, function(data,status){
+            alert("已經開始紀錄了喔!!");
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#second_box").click(function() {
+        url = "http://localhost:13523/test"
+        $.get(url, function(data,status){
+            alert("數據：" + data + "\n狀態：" + status);
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#third_box").click(function() {
+        url = "http://localhost:13523/test"
+        $.get(url, function(data,status){
+            alert("數據：" + data + "\n狀態：" + status);
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#fourth_box").click(function() {
+        url = "http://localhost:13523/test"
+        $.get(url, function(data,status){
+            alert("數據：" + data + "\n狀態：" + status);
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#fifth_box").click(function() {
+        url = "http://localhost:13523/test"
+        $.get(url, function(data,status){
+            alert("數據：" + data + "\n狀態：" + status);
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#sixth_box").click(function() {
+        url = "http://localhost:13523/test"
+        $.get(url, function(data,status){
             alert("數據：" + data + "\n狀態：" + status);
         });
     });
