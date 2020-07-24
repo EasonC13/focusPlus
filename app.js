@@ -16,7 +16,7 @@ console.log("QQ")
 
 $(document).ready(function(){
     $("#first_box").click(function() {
-        url = "http://localhost:13523/test"
+        url = "http://localhost:13523"
         $.get(url, function(data,status){
             alert("已經開始紀錄了喔!!");
         });
